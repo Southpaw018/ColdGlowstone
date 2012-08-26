@@ -1,0 +1,9 @@
+name: ColdGlowstone
+main: com.MoofIT.Minecraft.Anima.ColdGlowstone
+version: 1.0
+description: Stops melting due to Glowstone. 
+author: Southpaw018
+website: http://www.moofit.com
+
+commands: []
+permissions: []

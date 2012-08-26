@@ -1,0 +1,19 @@
+=============
+ Description
+=============
+ColdGlowstone - Stops melting due to Glowstone.
+
+Download (Direct JAR): http://www.moofit.com/minecraft/ColdGlowstone.jar
+Source: https://github.com/Southpaw018/ColdGlowstone
+
+=============
+ Features
+=============
+I live in an Ice Plains biome, and I wanted a plugin that was simple as possible to stop Glowstone from melting the snow in my house. I found a few on BukkitDev, but they did other things, too, or they implemented on/off commands.
+So, voila: no configurations. No commands. No permissions. Install, and Glowstone won't melt anything. Uninstall, and Glowstone will melt things again. That's all, folks!
+
+=============
+ Changes
+=============
+[Version 1.0]
+  - Initial public release

@@ -20,7 +20,7 @@ public class ColdGlowstone extends JavaPlugin {
 
 		getServer().getPluginManager().registerEvents(blockFadeListener, this);
 
-		log.info("ColdGlowstone " + getDescription().getVersion() + ": It's alright, daddio.");
+		log.info("ColdGlowstone " + getDescription().getVersion() + ": It's all alright, daddio.");
 	}
 
 	public void onDisable() {

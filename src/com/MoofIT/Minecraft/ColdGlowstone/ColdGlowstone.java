@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class ColdGlowstone extends JavaPlugin {
-	private final ColdGlowstoneBlockFadeListener blockFadeListener = new ColdGlowstoneBlockFadeListener();
+	private final ColdGlowstoneBlockListener blockListener = new ColdGlowstoneBlockListener();
 
 	public static Logger log;
 
@@ -18,7 +18,7 @@ public class ColdGlowstone extends JavaPlugin {
 		log = Logger.getLogger("Minecraft");
 		versionCheck();
 
-		getServer().getPluginManager().registerEvents(blockFadeListener, this);
+		getServer().getPluginManager().registerEvents(blockListener, this);
 
 		log.info("ColdGlowstone " + getDescription().getVersion() + ": It's all alright, daddio.");
 	}
